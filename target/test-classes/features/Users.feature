@@ -5,8 +5,8 @@ Feature: User Details
   	Given Verify fetching the user by "ID"
   	When using resourceurl as "GetUserresource" and httpMethod as "GET"
   	Then status code is 200
-  	And the response has 21 and "<firstname>" and "<lastname>"
+  	And the response has 99 and "<firstname>" and "<lastname>"
   	
   	Examples:
   	|firstname|lastname|
-  	|Veena	  |Hundalekar|
+  	|Terrell	  |Schuppe|
