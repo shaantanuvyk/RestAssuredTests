@@ -8,8 +8,8 @@ Feature: Verify Adding Location with Valid details
     And fetch the "place_id"
     
     Examples:
-    |name    |address|phone_no  |
-    |Shantanu|Amb    |9028288206|
+    |name    |address		|phone_no  |
+    |Shantanu|Ambarnath |9028288206|
     
   @GetValidPlace @Regression
     Scenario Outline: Verify fetching the location using valid placeID
@@ -20,7 +20,7 @@ Feature: Verify Adding Location with Valid details
     
      Examples:
     |name    |address|phone_no  |
-    |Shantanu|Amb    |9028288206|
+    |Shantanu|Ambarnath|9028288206|
     
   @UpdateValidPLace @LightRegression @Regression
   Scenario Outline: Verify updating existing location details

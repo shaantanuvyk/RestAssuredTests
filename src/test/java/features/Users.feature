@@ -9,4 +9,4 @@ Feature: User Details
   	
   	Examples:
   	|firstname|lastname|
-  	|Doyle	  |Ernser|
+  	|Veena	  |Hundalekar|
